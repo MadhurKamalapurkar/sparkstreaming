@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<h3>Hi ${name},</h3>
+		<h3>
+			One or more network statistic reached its maximum. Please check the application. 
+		</h3>
+		<p>
+			<a>${message}</a> - <h3>Team Daksh</h3> 
+		</p>
+	</body>
+
+</html>

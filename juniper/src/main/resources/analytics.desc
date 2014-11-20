@@ -1,0 +1,91 @@
+
+è
+analytics.proto	analytics"6
+TrafficStatus
+status (
+poll_interval ("v
+QueueStatus
+status (
+poll_interval (
+lt_high (
+lt_low (
+dt_high (
+dt_low ("a
+
+LinkStatus
+speed (
+duplex (
+mtu (
+state (
+auto_negotiation ("ˆ
+InterfaceInfo
+
+snmp_index (
+index (
+slot (
+port (
+
+media_type (
+
+capability (
+porttype ("–
+InterfaceStatus#
+link (2.analytics.LinkStatus,
+queue_status (2.analytics.QueueStatus0
+traffic_status (2.analytics.TrafficStatus"E
+
+QueueStats
+	timestamp (
+queue_depth (
+latency ("Ë
+TrafficStats
+	timestamp (
+rxpkt (
+rxucpkt (
+rxmcpkt (
+rxbcpkt (
+rxpps (
+rxbyte (
+rxbps (
+rxcrcerr	 (
+	rxdroppkt
+ (
+txpkt (
+txucpkt (
+txmcpkt (
+txbcpkt (
+txpps (
+txbyte (
+txbps (
+txcrcerr (
+	txdroppkt ("l
+InterfaceStats.
+traffic_stats (2.analytics.TrafficStats*
+queue_stats (2.analytics.QueueStats"¯
+	Interface
+name (	
+deleted (-
+information (2.analytics.InterfaceInfo(
+stats (2.analytics.InterfaceStats*
+status (2.analytics.InterfaceStatus"„
+
+SystemInfo
+	boot_time (
+
+model_info (	
+	serial_no (	
+	max_ports (
+	collector (	
+interface_list (	"n
+SystemStatus,
+queue_status (2.analytics.QueueStatus0
+traffic_status (2.analytics.TrafficStatus"|
+System
+name (	
+deleted (*
+information (2.analytics.SystemInfo'
+status (2.analytics.SystemStatus"i
+AnRecord
+	timestamp (!
+system (2.analytics.System'
+	interface (2.analytics.Interface
